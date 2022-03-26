@@ -1,1 +1,1 @@
-vkbottle @ https://github.com/mrMiiao/vkbottle4/blob/main/vkbottle4.zip?raw=true
+vkbottle==4.0
