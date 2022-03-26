@@ -6,6 +6,6 @@ session = User(token=token)
 
 @session.on.message(text=trigger)
 async def answer(event: Message):
-    event.ctx_api.messages.send(peer_id=event.peer_id, text=ans)
+    event.ctx_api.messages.send(peer_id=event.from_id, random_id=0, message=ans)
 
 session.run_forever()
